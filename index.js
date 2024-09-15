@@ -43,14 +43,14 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     );
 
     // Botão de Ações
-    await page.waitForSelector('sc-hdPSEv.gLaHWW');
+    await page.waitForSelector('.sc-hdPSEv.gLaHWW');
     await sleep(200);
-    await page.click('sc-hdPSEv.gLaHWW');
+    await page.click('.sc-hdPSEv.gLaHWW');
 
     // Botão de Deletar
-    await page.waitForSelector('sc-cCbPEh.jmjtag');
+    await page.waitForSelector('.sc-cCbPEh.jmjtag');
     await sleep(200);
-    await page.click('sc-cCbPEh.jmjtag');
+    await page.click('.sc-cCbPEh.jmjtag');
 
     // Marca a Checkbox
     await page.waitForSelector('input[type=checkbox]');
