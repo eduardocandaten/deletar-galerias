@@ -66,7 +66,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       '.src-components-Common-___Common__dialogModalContent___1vtiH button.src-components-Common-___Common__button___1H56_:last-child',
     );
 
-    // Aguarda 20 segundos antes de repetir o ciclo
+    // Aguarda 8 segundos antes de repetir o ciclo
     await sleep(8000);
   }
 })();
